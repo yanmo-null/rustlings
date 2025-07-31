@@ -5,7 +5,7 @@
 
 fn calculate_price_of_apples(n_apples: u64) -> u64 {
     if n_apples > 40 {
-        n_apples
+        (n_apples - 40)+40*2
     } else {
         2 * n_apples
     }
